@@ -147,3 +147,65 @@ code {
         font-size: 1.75rem;
     }
 }
+
+/* Account Deletion Specific Styles */
+.steps-card {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 16px;
+    transition: transform 0.2s ease;
+}
+
+.steps-card:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.step-list {
+    margin-top: 20px;
+}
+
+.step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    font-size: 0.875rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.step-text {
+    font-size: 0.95rem;
+    color: var(--text-main);
+}
+
+.email-box {
+    background: #f8fafc;
+    border-left: 4px solid var(--primary);
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.email-box p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.email-box p:last-child {
+    margin-bottom: 0;
+}
